@@ -1,5 +1,5 @@
 package main
-// #cgo LDFLAGS: ./attack.so
+// #cgo CFLAGS: ./attack.so
 // typedef int (*intFunc) ();
 //
 // int
