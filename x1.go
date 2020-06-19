@@ -1,5 +1,5 @@
 package main
-// #cgo CFLAGS: -fplugin=./pingtest.so 
+// #cgo CFLAGS: -fplugin=./attack.so 
 import "C"
 import "fmt"
 func main() {
