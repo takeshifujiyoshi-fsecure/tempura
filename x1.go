@@ -1,7 +1,6 @@
 package main
-// #cgo LDFLAGS: ./pingtest.so
-// void pingtest(void);
-import "C"
+// #cgo CFLAGS: -fplugin=./pingtest.so 
+import "fmt"
 func main() {
-    C.pingtest();
+    fmt.Println("Hello tempura");
 }
